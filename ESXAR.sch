@@ -947,7 +947,7 @@ U 1 1 57887260
 P 7900 5700
 F 0 "P18" H 7900 6200 50  0000 C CNN
 F 1 "EXTIO" H 7900 6300 50  0000 C CNN
-F 2 "library:SolderWirePad_Oval_9xInline_0-6mmDrill" H 7900 5700 50  0001 C CNN
+F 2 "library:SolderWirePad_Oval_9xInline_0-7mmDrill" H 7900 5700 50  0001 C CNN
 F 3 "" H 7900 5700 50  0000 C CNN
 	1    7900 5700
 	1    0    0    -1  
@@ -958,7 +958,7 @@ U 1 1 57888256
 P 9350 5700
 F 0 "P19" H 9350 6200 50  0000 C CNN
 F 1 "UNIVERSAL" H 9350 6300 50  0000 C CNN
-F 2 "library:SolderWirePad_Oval_9xInline_0-6mmDrill" H 9350 5700 50  0001 C CNN
+F 2 "library:SolderWirePad_Oval_9xInline_0-7mmDrill" H 9350 5700 50  0001 C CNN
 F 3 "" H 9350 5700 50  0000 C CNN
 	1    9350 5700
 	1    0    0    -1  
@@ -969,7 +969,7 @@ U 1 1 5788825C
 P 9650 5700
 F 0 "P20" H 9650 6200 50  0000 C CNN
 F 1 "UNIVERSAL" H 9800 6300 50  0000 C CNN
-F 2 "library:SolderWirePad_Oval_9xInline_0-6mmDrill" H 9650 5700 50  0001 C CNN
+F 2 "library:SolderWirePad_Oval_9xInline_0-7mmDrill" H 9650 5700 50  0001 C CNN
 F 3 "" H 9650 5700 50  0000 C CNN
 	1    9650 5700
 	1    0    0    -1  
@@ -1329,8 +1329,6 @@ Wire Wire Line
 	1250 1450 1900 1450
 Wire Wire Line
 	2200 5250 2200 4950
-Wire Wire Line
-	2200 4750 1400 4750
 Connection ~ 1400 4750
 Wire Wire Line
 	5200 2450 5150 2450
@@ -1458,4 +1456,17 @@ Wire Wire Line
 Connection ~ 2500 4050
 Wire Wire Line
 	2550 3750 2650 3750
+$Comp
+L JUMPER JP3
+U 1 1 57A07E84
+P 1900 4750
+F 0 "JP3" H 1900 4900 50  0000 C CNN
+F 1 "JUMPER" H 1900 4670 50  0000 C CNN
+F 2 "" H 1900 4750 50  0001 C CNN
+F 3 "" H 1900 4750 50  0000 C CNN
+	1    1900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4750 1600 4750
 $EndSCHEMATC
