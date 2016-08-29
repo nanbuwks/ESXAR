@@ -5,6 +5,9 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.zip
+PCBWAY*
+DFROBOT*
 
 # Netlist files (exported from Eeschema)
 # *.net
